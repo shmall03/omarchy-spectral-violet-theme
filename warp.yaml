@@ -1,0 +1,26 @@
+name: Spectral-Violet
+accent: "#9357ce"
+cursor: "#9357ce"
+background: "#040305"
+foreground: "#d9d3de"
+details: darker
+
+terminal_colors:
+  normal:
+    black:   "#040305"
+    red:     "#9369bf"
+    green:   "#9b6acd"
+    yellow:  "#a47acc"
+    blue:    "#9357ce"
+    magenta: "#9f77c8"
+    cyan:    "#ac84d4"
+    white:   "#ccc7d1"
+  bright:
+    black:   "#a694b8"
+    red:     "#c1a7dd"
+    green:   "#c9ace7"
+    yellow:  "#d1bae7"
+    blue:    "#a765e9"
+    magenta: "#b485e2"
+    cyan:    "#c196eb"
+    white:   "#d9d3de"
