@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
-  "name": "aether",
-  "author": "Aether",
+  "name": "spectral-violet",
+  "author": "Shmall",
   "themes": [
     {
-      "name": "Aether",
+      "name": "Spectral Violet",
       "appearance": "dark",
       "style": {
         "border": "#040305",
