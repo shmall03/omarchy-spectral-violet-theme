@@ -36,11 +36,17 @@ This theme includes configurations for a wide range of tools:
 
 The theme comes with a curated set of 6 spectral backgrounds:
 1. `PurpleMoon.png`
+![Purple Moon](./backgrounds/1-PurpleMoon.png)
 2. `PerlinFlowfield.png`
+![Perlin Flowfield](./backgrounds/2-PerlinFlowfield.png)
 3. `RadialBlur.png`
+![Radial Blur](./backgrounds/3-RadialBlur.png)
 4. `RecursiveGeometry.png`
+![Recursive Geometry](./backgrounds/4-RecursiveGeometry.png)
 5. `TopographyDots.png`
+![Topography Dots](./backgrounds/5-TopographyDots.png)
 6. `HypercubeCircles.png`
+![Hypercude Circles](./backgrounds/6-HypercubeCircles.png)
 
 ## 🚀 Installation
 
