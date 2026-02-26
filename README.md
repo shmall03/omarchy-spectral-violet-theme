@@ -25,12 +25,38 @@ Designed with high-contrast typography and a flowy aesthetic, **Spectral Violet*
 This theme includes configurations for a wide range of tools:
 
 - **Window Manager:** Hyprland (`hyprland.conf`, `hyprlock.conf`)
+
 - **Terminals:** Alacritty, Ghostty, Kitty, Warp
+
 - **Editors:** Neovim (Lua), Zed
+
 - **Shell & UI:** Waybar, Mako (Notifications), SwayOSD, Walker, Wofi
+
 - **Browsers & Chat:** Chromium, Vencord (Discord)
+
 - **System Tools:** Btop
+
 - **Toolkit:** GTK4/Adwaita (via `aether.override.css`)
+
+
+## 🚀 Installation
+
+This theme can be tuned into your Omarchy system in two ways.
+
+### 💻 Terminal
+
+Run the following command to clone and activate the theme:
+
+```bash
+omarchy-theme-install https://github.com/shmall03/omarchy-spectral-violet-theme.git
+```
+
+### 🧭 Walker Menu
+
+1. **Copy** this link: `https://github.com/shmall03/omarchy-spectral-violet-theme.git`
+2. **Open Walker** (`SUPER+ALT+SPACE`)
+3. **Navigate** to: `Install < Style < Theme`
+4. **Paste** (`CTRL+SHIFT+V`) and press **Enter**.
 
 ## 🖼️ Backgrounds
 
@@ -47,22 +73,6 @@ The theme comes with a curated set of 6 spectral backgrounds:
 ![Topography Dots](./backgrounds/5-TopographyDots.png)
 6. `HypercubeCircles.png`
 ![Hypercude Circles](./backgrounds/6-HypercubeCircles.png)
-
-## 🚀 Installation
-
-This theme can be tuned into your Omarchy system in two ways.
-
-### 💻 Terminal
-Run the following command to clone and activate the theme:
-```bash
-omarchy-theme-install https://github.com/shmall03/omarchy-spectral-violet-theme.git
-```
-
-### 🧭 Walker Menu
-1. **Copy** this link: `https://github.com/shmall03/omarchy-spectral-violet-theme.git`
-2. **Open Walker** (`SUPER+ALT+SPACE`)
-3. **Navigate** to: `Install < Style < Theme`
-4. **Paste** (`CTRL+SHIFT+V`) and press **Enter**.
 
 ## 🎹 Inspiration
 The name **Spectral Violet** refers to the post-spectralist movement in music — focusing on the properties of sound itself and the harmonic series. Much like a complex chord being broken down into its constituent frequencies, this theme breaks down the violet spectrum into a functional, cohesive workspace.
