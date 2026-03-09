@@ -6,6 +6,9 @@ Designed with high-contrast typography and a flowy aesthetic, **Spectral Violet*
 
 ![Spectral Violet Preview](Preview-Image.png)
 
+## 📄 License
+This theme is released under the **MIT License**. See the `LICENSE` file for details.
+
 ## 🎨 The Palette
 
 - **Background:** `#040305` (Deep Obsidian)
@@ -30,7 +33,7 @@ This theme includes configurations for a wide range of tools:
 
 - **Editors:** Neovim (Lua), Zed
 
-- **Shell & UI:** Waybar, Mako (Notifications), SwayOSD, Walker, Wofi
+- **Shell & UI:** Waybar (including custom config), Mako (Notifications), SwayOSD, Walker, Wofi
 
 - **Browsers & Chat:** Chromium, Vencord (Discord)
 
@@ -42,6 +45,8 @@ This theme includes configurations for a wide range of tools:
 ## 🚀 Installation
 
 This theme can be tuned into your Omarchy system in two ways.
+
+>Be sure to run `cp ~/.config/omarchy/themes/spectral-violet/waybar/ ~/.config/` to obtain the custom waybar config included
 
 ### 💻 Terminal
 
