@@ -31,13 +31,19 @@ This theme includes configurations for a wide range of tools:
 
 - **Terminals:** Alacritty, Ghostty, Kitty, Warp
 
-- **Editors:** Neovim (Lua), Zed
+- **Editors:** Neovim (Lua)
 
 - **Shell & UI:** Waybar (including custom config), Mako (Notifications), SwayOSD, Walker, Wofi
 
-- **Browsers & Chat:** Chromium, Vencord (Discord)
+- **Browsers & Chat:** Chromium, Vencord (Discord), Zen Browser
 
-- **System Tools:** Btop
+- **File Management:** Eza, Superfile
+
+- **System Tools:** Btop, Qt6, Vicinae (Fetch)
+
+- **Entertainment:** Cava, Steam
+
+- **Misc:** Obsidian, Icons (Yaru-Purple)
 
 - **Toolkit:** GTK4/Adwaita (via `aether.override.css`)
 
@@ -46,7 +52,10 @@ This theme includes configurations for a wide range of tools:
 
 This theme can be tuned into your Omarchy system in two ways.
 
->Be sure to run `cp ~/.config/omarchy/themes/spectral-violet/waybar/ ~/.config/` to obtain the custom waybar config included
+**Be sure to run the command to obtain the custom waybar config included:**
+```bash
+cp -r ~/.config/omarchy/themes/spectral-violet/waybar/ ~/.config/
+```
 
 ### 💻 Terminal
 
@@ -66,17 +75,17 @@ omarchy-theme-install https://github.com/shmall03/omarchy-spectral-violet-theme.
 ## 🖼️ Backgrounds
 
 The theme comes with a curated set of 6 spectral backgrounds:
-1. `PurpleMoon.png`
+1. `1-PurpleMoon.png`
 ![Purple Moon](./backgrounds/1-PurpleMoon.png)
-2. `PerlinFlowfield.png`
+2. `2-PerlinFlowfield.png`
 ![Perlin Flowfield](./backgrounds/2-PerlinFlowfield.png)
-3. `RadialBlur.png`
+3. `3-RadialBlur.png`
 ![Radial Blur](./backgrounds/3-RadialBlur.png)
-4. `RecursiveGeometry.png`
+4. `4-RecursiveGeometry.png`
 ![Recursive Geometry](./backgrounds/4-RecursiveGeometry.png)
-5. `TopographyDots.png`
+5. `5-TopographyDots.png`
 ![Topography Dots](./backgrounds/5-TopographyDots.png)
-6. `HypercubeCircles.png`
+6. `6-HypercubeCircles.png`
 ![Hypercude Circles](./backgrounds/6-HypercubeCircles.png)
 
 ## 🎹 Inspiration
