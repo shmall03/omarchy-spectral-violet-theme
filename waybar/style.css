@@ -11,20 +11,19 @@
     border: none;
     border-radius: 0;
     font-family: "JetBrainsMono Nerd Font", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     min-height: 0;
 }
 
 window#waybar {
     background: transparent;
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 /* --- General Module Styles --- */
 #cpu,
 #memory,
-#temperature,
 #custom-update,
 #tray,
 #bluetooth,
@@ -32,7 +31,8 @@ window#waybar {
 #pulseaudio,
 #battery,
 #custom-omarchy,
-#clock {
+#clock,
+#custom-tapo-gui {
     background-color: @background;
     color: @foreground;
     padding: 0 10px;
@@ -41,20 +41,19 @@ window#waybar {
 }
 
 #cpu,
-#memory,
-#temperature{
+#memory {
     padding: 0 6px;
 }
 
 #cpu:hover,
 #memory:hover,
-#temperature:hover,
 #custom-update:hover,
 #bluetooth:hover,
 #network:hover,
 #pulseaudio:hover,
 #battery:hover,
-#custom-omarchy:hover {
+#custom-omarchy:hover,
+#custom-tapo-gui:hover {
     background-color: @hover-bg;
 }
 
@@ -81,7 +80,7 @@ window#waybar.empty #window {
     padding-left: 10px;
 }
 
-#temperature {
+#memory {
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
     padding-right: 10px;

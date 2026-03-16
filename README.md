@@ -52,11 +52,6 @@ This theme includes configurations for a wide range of tools:
 
 This theme can be tuned into your Omarchy system in two ways.
 
-**Be sure to run the command to obtain the custom waybar config included:**
-```bash
-cp -r ~/.config/omarchy/themes/spectral-violet/waybar/ ~/.config/
-```
-
 ### 💻 Terminal
 
 Run the following command to clone and activate the theme:
@@ -71,6 +66,13 @@ omarchy-theme-install https://github.com/shmall03/omarchy-spectral-violet-theme.
 2. **Open Walker** (`SUPER+ALT+SPACE`)
 3. **Navigate** to: `Install < Style < Theme`
 4. **Paste** (`CTRL+SHIFT+V`) and press **Enter**.
+
+### 💣️ Crucial Step for Terminal and Walker Menu Methods
+
+**Be sure to run the command to obtain the custom waybar config included:**
+```bash
+cp -r ~/.config/omarchy/themes/spectral-violet/waybar/ ~/.config/
+```
 
 ## 🖼️ Backgrounds
 
