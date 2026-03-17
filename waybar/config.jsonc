@@ -4,10 +4,18 @@
   "margin-left": 2,
   "margin-right": 2,
   "height": 35,
-
+  "layer": "top",
   // Module placement
-  "modules-left": ["cpu", "memory", "temperature","hyprland/window"],
-  "modules-center": ["hyprland/workspaces", "custom/update"],
+  "modules-left": [
+    "cpu",
+    "memory",
+    "temperature",
+    "hyprland/window"
+  ],
+  "modules-center": [
+    "hyprland/workspaces",
+    "custom/update"
+  ],
   "modules-right": [
     "group/tray-expander",
     "custom/tapo-gui",
@@ -18,7 +26,6 @@
     "custom/omarchy",
     "clock"
   ],
-
   // ---------------------------------------------------------------- //
   // ------------------------- Left Modules ------------------------- //
   // ---------------------------------------------------------------- //
@@ -47,7 +54,6 @@
     "format": "{temperatureC}°C",
     "tooltip": false
   },
-
   // ------------------------------------------------------------------ //
   // ------------------------ Center Modules ------------------------ //
   // ------------------------------------------------------------------ //
@@ -83,7 +89,6 @@
     "interval": 3600,
     "cursor": false
   },
-
   // ----------------------------------------------------------------- //
   // ------------------------- Right Modules ------------------------- //
   // ----------------------------------------------------------------- //
@@ -93,7 +98,10 @@
       "transition-duration": 600,
       "children-class": "tray-group-item"
     },
-    "modules": ["custom/expand-icon", "tray"]
+    "modules": [
+      "custom/expand-icon",
+      "tray"
+    ]
   },
   "custom/expand-icon": {
     "format": " ",
@@ -118,7 +126,13 @@
     "cursor": false
   },
   "network": {
-    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "format-icons": [
+      "󰤯",
+      "󰤟",
+      "󰤢",
+      "󰤥",
+      "󰤨"
+    ],
     "format": "{icon}",
     "format-wifi": "{icon}",
     "format-ethernet": "󰀂",
@@ -139,7 +153,11 @@
     "scroll-step": 5,
     "format-muted": "󰝟",
     "format-icons": {
-      "default": ["", "", ""]
+      "default": [
+        "",
+        "",
+        ""
+      ]
     },
     "cursor": false
   },
@@ -149,8 +167,30 @@
     "format-charging": "{icon}",
     "format-plugged": "",
     "format-icons": {
-      "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
-      "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+      "charging": [
+        "󰢜",
+        "󰂆",
+        "󰂇",
+        "󰂈",
+        "󰢝",
+        "󰂉",
+        "󰢞",
+        "󰂊",
+        "󰂋",
+        "󰂅"
+      ],
+      "default": [
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+      ]
     },
     "format-full": "󰂅",
     "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
@@ -162,13 +202,13 @@
     },
     "cursor": false
   },
-   "custom/omarchy": {
+  "custom/omarchy": {
     "format": "<span font='omarchy'>\ue900</span>",
     "on-click": "omarchy-menu",
     "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space",
     "cursor": false
   },
-   "clock": {
+  "clock": {
     "format": "{:%A %H:%M}",
     "format-alt": "{:%b %d, %Y}",
     "tooltip": false,
