@@ -37,14 +37,14 @@ border = "colors.core.border"
 # ============================================================================
 
 [colors.accents]
-blue    = "#a765e9" 
-green   = "#9b6acd" 
-magenta = "#b485e2" 
-orange  = "#c1a7dd" 
-red     = "#9369bf" 
-yellow  = "#a47acc" 
-cyan    = "#ac84d4" 
-purple  = "#9357ce" 
+blue    = "#adadeb"
+green   = "#70dc70"
+magenta = "#ebadeb"
+orange  = "#ebadad"
+red     = "#dc7070"
+yellow  = "#dcdc70"
+cyan    = "#70dcdc"
+purple  = "#dc70dc"
 
 # ============================================================================
 # Text Colors

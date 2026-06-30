@@ -22,21 +22,21 @@ return {
 
                 -- Accent colors
                 -- red: Errors, diagnostics, tags, deletions, breakpoints
-                red = "#9369bf",
+                red = "#dc7070",
                 -- orange: Constants, numbers, current line number, git modifications
-                orange = "#c1a7dd",
+                orange = "#ebadad",
                 -- yellow: Types, classes, constructors, warnings, numbers, booleans
-                yellow = "#a47acc",
+                yellow = "#dcdc70",
                 -- green: Comments, strings, success states, git additions
-                green = "#9b6acd",
+                green = "#70dc70",
                 -- cyan: Parameters, regex, preprocessor, hints, properties
-                cyan = "#ac84d4",
+                cyan = "#70dcdc",
                 -- blue: Functions, keywords, directories, links, info diagnostics
-                blue = "#9357ce",
+                blue = "#7070dc",
                 -- purple: Storage keywords, special keywords, identifiers, namespaces
-                purple = "#9f77c8",
+                purple = "#dc70dc",
                 -- magenta: Function declarations, exception handling, tags
-                magenta = "#b485e2",
+                magenta = "#ebadeb",
             },
         },
         config = function(_, opts)

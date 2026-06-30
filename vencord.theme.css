@@ -14,14 +14,14 @@
     --color05: #d9d3de;
     --color06: #c196eb;
     --color07: #ac84d4;
-    --color08: #9369bf;
-    --color09: #c1a7dd;
-    --color10: #a47acc;
-    --color11: #9357ce;
-    --color12: #ac84d4;
-    --color13: #9b6acd;
-    --color14: #b485e2;
-    --color15: #c9ace7;
+    --color08: #dc7070;
+    --color09: #ebadad;
+    --color10: #dcdc70;
+    --color11: #70dc70;
+    --color12: #70dcdc;
+    --color13: #7070dc;
+    --color14: #dc70dc;
+    --color15: #ebadeb;
 
     --base00: var(--color00);
     --base01: var(--color01);
