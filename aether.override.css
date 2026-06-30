@@ -10,20 +10,20 @@
 @define-color foreground #d9d3de;
 
 @define-color black #040305;
-@define-color red #9369bf;
-@define-color green #9b6acd;
-@define-color yellow #a47acc;
-@define-color blue #9357ce;
-@define-color magenta #9f77c8;
-@define-color cyan #ac84d4;
+@define-color red #dc7070;
+@define-color green #70dc70;
+@define-color yellow #dcdc70;
+@define-color blue #7070dc;
+@define-color magenta #dc70dc;
+@define-color cyan #70dcdc;
 @define-color white #ccc7d1;
 @define-color bright_black #a694b8;
-@define-color bright_red #c1a7dd;
-@define-color bright_green #c9ace7;
-@define-color bright_yellow #d1bae7;
-@define-color bright_blue #a765e9;
-@define-color bright_magenta #b485e2;
-@define-color bright_cyan #c196eb;
+@define-color bright_red #ebadad;
+@define-color bright_green #adebad;
+@define-color bright_yellow #ebebad;
+@define-color bright_blue #adadeb;
+@define-color bright_magenta #ebadeb;
+@define-color bright_cyan #adebeb;
 @define-color bright_white #d9d3de;
 
 /* Base GTK theme variables */

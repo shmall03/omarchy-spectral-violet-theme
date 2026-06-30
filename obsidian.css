@@ -37,9 +37,9 @@
   --code-normal: #c196eb;
 
   /* Errors and success */
-  --text-error: #9369bf;
-  --text-error-hover: #c1a7dd;
-  --text-success: #9b6acd;
+  --text-error: #dc7070;
+  --text-error-hover: #ebadad;
+  --text-success: #70dc70;
 
   /* Tags */
   --tag-color: #9357ce;
