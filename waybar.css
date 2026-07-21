@@ -5,13 +5,12 @@
 
 @define-color background #040305;
 @define-color foreground #d9d3de;
+@define-color accent #9357ce;
 @define-color hover #a765e9;
 @define-color selected #9357ce;
 @define-color warning #a47acc;
 @define-color critical #9369bf;
 @define-color border alpha(@accent, 0.7);
-@define-color accent #9357ce;
-@define-color base-bg #040305;
 
 #clock,
 #battery,

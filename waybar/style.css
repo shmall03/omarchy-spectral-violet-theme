@@ -1,4 +1,3 @@
-@define-color base-bg @background;
 @define-color accent @foreground;
 @import "../omarchy/current/theme/waybar.css";
 
